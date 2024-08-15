@@ -1,0 +1,21 @@
+{
+  "name": "adafel-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adafel/opendatalibrary-js-sdk": "file:../openDataLibrary-js-sdk/adafel-opendatalibrary-js-sdk-0.1.6.tgz",
+    "dotenv": "^16.4.5",
+    "viem": "^2.19.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "typescript": "^5.5.4"
+  }
+}
