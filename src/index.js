@@ -15,7 +15,7 @@ async function main() {
 
   // Read CSV file
   const content = await fs.readFile(
-    `/Users/prajjawalkhandelwal/Prajjawal/adafel-tutorial/heart-disease.csv`
+    `../heart-disease.csv`
   );
 
   // Upload data to IPFS and return data CID
